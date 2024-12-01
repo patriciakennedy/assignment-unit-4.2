@@ -1,0 +1,62 @@
+/* Applying reset for consistency */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #abba7c;
+  padding:5px 10px;
+
+}
+
+/* center main contents */
+.centered-contents {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 5px solid #3D5300;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+
+/* main content styling- H2, img*/
+.info {
+    width: 100%;;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.info h2 {
+    background-color: #3D5300;
+    color: #ffffff;
+    width: 100%;
+    max-width: 900px;
+    margin-top: -4px;
+}
+
+
+
+img {
+    /* width: 500px; */
+    max-width: 75%;
+    height: auto;
+}
+
+
+.info h3 {
+    background-color: #3D5300;
+    color: #ffffff;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: -5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
